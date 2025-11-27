@@ -67,7 +67,6 @@
   </head>
 
   <body>
-
     <div class="container-fluid bg-success text-white py-4 mb-4">
       <div class="row">
         <div class="col text-center">
@@ -78,20 +77,20 @@
     </div>
 
     <div class="container bg-light p-4 rounded mb-4 shadow-sm">
-      <h2 class="text-center section-title mb-3"> Non-Venomous Snakes</h2>
+      <h2 class="text-center section-title mb-3">Non-Venomous Snakes</h2>
       <div class="row" id="nonVenomous"></div>
     </div>
 
     <div class="container bg-light p-4 rounded mb-4 shadow-sm">
-      <h2 class="text-center section-title mb-3"> Mildly Venomous Snakes</h2>
+      <h2 class="text-center section-title mb-3">Mildly Venomous Snakes</h2>
       <div class="row" id="mildVenom"></div>
     </div>
-=
+    =
     <div class="container bg-light p-4 rounded mb-4 shadow-sm">
-      <h2 class="text-center section-title mb-3"> Highly Venomous Snakes</h2>
+      <h2 class="text-center section-title mb-3">Highly Venomous Snakes</h2>
       <div class="row" id="highVenom"></div>
     </div>
-=
+    =
     <footer class="py-3 mt-4 text-center">
       <div>Snake.Ph | Philippine Snakes | by Allen Rianzares</div>
     </footer>
@@ -104,7 +103,6 @@
       var highVenom = document.getElementById("highVenom");
 
       var snakes = [
-
         {
           name: "Luzon Brown Rat Snake",
           picture: "brs.jpg",
@@ -122,6 +120,13 @@
           name: "Wolfsnake",
           picture: "wolfsnake.jpg",
           details: "A harmless mimic of venomous kraits; dark with pale bands.",
+          venom: "none",
+        },
+        {
+          name: "Barred Kukri Snake",
+          picture: "kukri.jpg",
+          details:
+            "Non-venomous colubrid snake; specialized teeth used for eating eggs. ",
           venom: "none",
         },
 
@@ -143,6 +148,12 @@
           details: "A mildly venomous tree viper with heat-sensing pits.",
           venom: "mild",
         },
+        {
+          name: "Dog Toothed Cat Snake",
+          picture: "boiga.jpg",
+          details: "A mildly venomous tree viper; rear-fanged colorful snake.",
+          venom: "mild",
+        },
 
         {
           name: "King Cobra",
@@ -153,8 +164,7 @@
         {
           name: "Philippine Cobra",
           picture: "ph cobra.webp",
-          details:
-            "A highly venomous cobra native to the Philippines.",
+          details: "A highly venomous cobra native to the Philippines.",
           venom: "high",
         },
         {
